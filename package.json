@@ -8,7 +8,7 @@
   },
   "peerDependencies": {
     "class-transformer": ">=0.2.3",
-    "class-validator": ">=0.12.0"
+    "class-validator": "LukeeeeBennett/class-validator#no-phone"
   },
   "devDependencies": {
     "@types/chai": "^4.2.12",
@@ -17,7 +17,7 @@
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "class-transformer": "^0.3.1",
-    "class-validator": "^0.12.2",
+    "class-validator": "LukeeeeBennett/class-validator#no-phone",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "mocha": "^8.1.1",
@@ -80,5 +80,8 @@
     "object-to-class",
     "typescript-serializer"
   ],
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@types/validator": "^13.1.1"
+  }
 }
