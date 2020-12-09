@@ -38,8 +38,8 @@
       "git add"
     ]
   },
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "author": {
     "name": "Michał Lytek",
     "url": "https://github.com/MichalLytek"
